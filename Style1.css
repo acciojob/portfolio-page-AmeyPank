@@ -19,14 +19,13 @@
 		}
 
 		.header {
-			background-color: #9933cc;
-			color: #ffffff;
+			background-color: #d7b5e8;
+			color: #4d38e9;
 			padding: 15px;
 		}
 
 		.menu ul {
 			list-style-type: none;
-			margin: 0;
 			padding: 0;
 		}
 
@@ -35,24 +34,24 @@
 			margin-bottom: 7px;
 			background-color: #33b5e5;
 			color: #ffffff;
-			box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+			box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(240, 131, 131, 0.24);
 		}
 
 		.menu li:hover {
-			background-color: #0099cc;
+			background-color: #71afc4;
 		}
 
 		.aside {
-			background-color: #33b5e5;
+			background-color: #71afc4;
 			padding: 15px;
 			color: #ffffff;
 			text-align: center;
 			font-size: 14px;
-			box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+			box-shadow: 0 1px 3px rgba(163, 85, 85, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 		}
 
 		.footer {
-			background-color: #0099cc;
+			bbackground-color: #71afc4;
 			color: #ffffff;
 			text-align: center;
 			font-size: 12px;

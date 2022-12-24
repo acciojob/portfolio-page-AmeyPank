@@ -2,102 +2,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200&family=Source+Code+Pro:ital,wght@1,300&display=swap');
-* {
-  margin: 0;
-  padding: 0;
-}
-.mb-3{
-  margin-top: 1000px;
-}
+
+
 .contactform
   {
     font-family: monospace;
     color: aquamarine;
 }
 
-.logo {
-  margin-top: 20px;
-  margin-left: 30px;
-  max-width: 20%;
-  background-color: rgb(6, 35, 58);
-}
-.sidebar {
-  background-color: rgb(6, 35, 58);
-  margin-top: 100px;
-  width: 300px;
-}
-.sidebar i{
-  color:slategrey ;
-  width: 5px;
-  margin-top:50px;
-  margin-right: 50px;
-}
-/* .sidebar i:hover{
-background-color:slategrey ;
-color: aquamarine;
-
-} */
-
-.sidebar nav {
-  margin-top: 100px;
-}
-
-.sidebar nav  li {
-color: aquamarine;
-  font-size: 20px;
-  padding:20px;
-}
-.sidebar nav  li a{
-  color: aquamarine;
-  text-decoration: none;
-  font-family: monospace;
-}
-
-.main {
- /* background-color: rgb(248, 195, 250); */
- background-color: rgb(6, 35, 58);
-  width: 200px;
-  height: 851px;
-}
-
-.container {
-  display: flex;
-  /* background-color: rgb(241, 187, 243); */
-  background-color: rgb(6, 35, 58);
-  width: 2000px;
-  height: 1000px;
-}
-.infocontainer {
-  background-color: rgb(6, 35, 58);
-  height: 55vh;
-  width: 80vw;
-  margin: 144px auto;
-  padding: 10px;
-  display: flex;
-  justify-content: space-around;
-}
-.devInfo{
-    display: flex;
-    /* align-items: center; */
-    flex-direction: column;
-    justify-content: center;
-    font-family: 'Source Code Pro', monospace;
-}
-
 .hello{
+  margin-left: 25%;
   font-family: monospace;
-  font-size: 20px;
+  font-size: 30px;
   padding: 20px;
-  color: aquamarine
+  color: lightslategray;
 }
 .name{
-    padding: 10px;
-    color: rgb(191, 204, 218);
+  margin-left: 25%;
+    padding: 20px;
+    color: lightslategray;
     font-size: clamp(40px, 8vw, 80px);
     font-weight: bold;
     font-family: "Lora", serif;
 }
 .about{
+    margin-left: 25%;
     padding: 10px;
     color: lightslategray;
     font-size: clamp(40px, 8vw, 80px);
@@ -105,22 +34,22 @@ color: aquamarine;
     font-family: "Lora", serif
 }
 .moreabout{
+  margin-left: 25%;
   font-family: sans-serif;
-  margin: 20px 0px 0px;
-  max-width: 540px;
   font-size: 20px;
-  margin-right: 800px;
-  margin: 40;
   width: 600px;
   color:slategray
 }
+.image{
+  margin-left: 40%;
+}
 .buttons button{
+  width: 250px;
+  margin: 50px;
+  margin-left: 40%;
   font-family: monospace;
   border: 1px solid aquamarine;
-  margin-top: 20px;
-  padding: 60px;
   border-radius: 30px;
-  /* color: white; */
   background-color:rgb(6, 35, 58);
   font-size: 30px;
   cursor: pointer;
@@ -130,11 +59,6 @@ color: aquamarine;
   background-color:rgb(6, 35, 58);
   color: aquamarine;
 }
-
-.devPic img{
-  height: 55vh;
-}
-
 
 /* Contact form */
 
@@ -263,7 +187,7 @@ padding: 3px;
   font-family: monospace;
   font-size: 20px;
   padding: 20px;
-  color: aquamarine
+  color: rgb(8, 100, 69)
  }
  .name1{
   padding: 20px;
@@ -281,22 +205,40 @@ padding: 3px;
  }
  .moreabout1{
     font-family: sans-serif;
-    margin: 20px 0px 0px;
-    max-width: 320px;
     font-size: 20px;
-    margin-right: 800px;
-    margin: 40;
+    margin-left: 40%;
     width: 600px;
     color:slategray
  }
- .image{
-margin-left: 40%;
-border: 5px;
 
- }
- .colour{
-  background-color: rgb(6, 35, 58);
- }
- h1{
+.row1{
   text-align: center;
- }
+}
+  
+.icons{
+  display: flex;
+  padding: 100px;
+  width: 400px;
+  margin-left: 40%;
+}
+.git{
+  padding: 10px;
+}
+.linkedin{
+  padding: 10px;
+}
+.what{
+  padding: 10px;
+}
+
+.insta{
+  padding: 10px;
+}
+.twitter{
+  padding: 10px;
+}
+
+
+
+
+
