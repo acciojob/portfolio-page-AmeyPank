@@ -1,0 +1,88 @@
+/* Contact form */
+
+.Csidebar i{
+    margin-top: 50px;
+    margin-left: 20px;
+    padding: 0px;
+  }
+  .Csidebar {
+    background-color: rgb(6, 35, 58);
+    margin-top: 100px;
+    width: 300px;
+  }
+  
+  .Csidebar nav {
+    margin-top: 100px;
+    padding: auto;
+  }
+  
+  .Csidebar nav  li {
+    color: aquamarine;
+    font-size: 20px;
+    padding:20px;
+  }
+  .Csidebar nav  li a{
+    color: aquamarine;
+    text-decoration: none;
+    font-family: monospace;
+  }
+  .Ccontainer {
+    display: flex;
+    /* background-color: rgb(241, 187, 243); */
+    background-color: rgb(6, 35, 58);
+    width: 2000px;
+    height: 1000px;
+  }
+  .Cregister{
+    display: flex;
+    /* background-color: rgb(241, 187, 243); */
+    background-color: rgb(6, 35, 58);
+    width: 2000px;
+    height: 1000px;
+  }
+  
+  .contactform button{
+    font-family: monospace;
+    border: 1px solid aquamarine;
+    margin-top: 20px;
+    padding: 40px;
+    border-radius: 30px;
+    /* color: white; */
+    background-color:rgb(6, 35, 58);
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .contactform button:hover{  
+    background-color:rgb(6, 35, 58);
+    color: aquamarine;
+  
+  }
+  .contactform{
+  margin-top: 50px;
+  padding: 0 34px;
+  padding-top: 144px;
+  font-family: 'Fira sans', sans-serif;
+  }
+  .contactform h1{
+    font-family:  monospace;
+    font-size: 35px;
+    margin-bottom: 50px;
+  }
+  .contactform form div{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .contactform form div{
+  width: 50vw;
+  border-radius: 30px;
+  margin: 6px 0;
+  padding: 3px;
+  }
+  
+  #emailHelp{
+    font-size: 10px;
+    color: mediumaquamarine;
+    margin: 10px;
+  }
+  
